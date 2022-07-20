@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./js/livesearch.js"></script>
 </head>
 <body>
     <h1>从PHP后端获取数据（JSON）</h1>
     <p id="json">正在获取中...</p>
     <script src="./js/json.js"></script>
+    <h1>AJAX LiveSearch</h1>
+    <form>
+    <input type="text" size="30" onkeyup="showResult(this.value)">
+    <div id="livesearch"></div>
+    </form>
 </body>
 </html>
