@@ -5,6 +5,7 @@
       }
     },
     "routes": [
-      { "src": "/(.*)", "dest": "/api/index.php" }
+      { "src": "/(.*)", "dest": "/api/index.php" },
+      { "src": "/01", "dest": "https://api.bilibili.com/x/space/upstat" }
     ]
   }
